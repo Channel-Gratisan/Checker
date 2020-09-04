@@ -29,13 +29,13 @@ valid_proxy = []
 
 def prox():
   print('''
-[1] Ambil proxy dari situs (free-proxy.cz/en/)
+[1] Ambil proxy dari situs (free-proxy-list.com)
 [2] Ambil proxy dari situs ini (free-proxy-list.net)[\033[92mDisarankan\033[0m]
 [3] Dari folder
   ''')
   ask = int(
     input(
-      '[?] Locasi: '
+      '[?] Lokasi: '
     )
   )
   if ask == 1:
@@ -82,7 +82,7 @@ def proxy_com():
   )
   count = 1
   stop = False
-  url = 'http://free-proxy.cz/en/?page=%s' %(
+  url = 'https://free-proxy-list.com?page=%s' %(
     str(
       count
     )
@@ -138,7 +138,7 @@ def proxy_com():
         break
       elif stop == False:
         count+=1
-        url = 'http://free-proxy.cz/en/?page=%s' %(
+        url = 'https://free-proxy-list.com?page=%s' %(
           str(
             count
           )
