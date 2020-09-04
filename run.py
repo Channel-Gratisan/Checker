@@ -112,10 +112,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '\e[1;33m[!] Pemisah empas harus (:)/(|) yaa\n'
+      '[!] Pemisah empas harus (:)/(|) yaa\n'
     )
     empas = input(
-      '\e[0;35m[?] Folder empas (ex: empas.txt): '
+      '[?] Folder empas (ex: empas.txt): '
     )
     if os.path.exists(
       empas
