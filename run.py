@@ -112,10 +112,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password atau email|password\n'
+      '[!] \e[1;33mPemisah empas harus (:)/(|) yaa\n'
     )
     empas = input(
-      '[?] List empas (ex: empas.txt): '
+      '[?] \e[0;35mFolder empas (ex: empas.txt): '
     )
     if os.path.exists(
       empas
@@ -198,7 +198,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Ingin menggunakan proxy?(\033[92mSarankan\033[0m) [Y/t]: '
+        '[?] Ingin menggunakan proxy?(\033[92mSaran\033[0m) [Y/t]: '
       )
       if ask.lower(
       ).strip(
