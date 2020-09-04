@@ -353,7 +353,7 @@ class MOONTON:
           print(
             '\r[\033[92mLIVE\033[92m] '+user[
               'userdata'
-             ]+' 👉(\033[92mResult Boss\033[92m)'
+             ]+' 👉(\033[92mResult Boss\033[1;0m)'
           )
           self.live.append(
             user[
@@ -377,7 +377,7 @@ class MOONTON:
           print(
             '\r[\033[91mDIEE\033[0m] '+user[
               'userdata'
-            ]+' 👉 (\033[91mSalah password\033[0m)'
+            ]+' 👉 (\033[91mSalah password\033[1;0m)'
           )
           self.wrong_password.append(
             user[
@@ -401,7 +401,7 @@ class MOONTON:
           print(
             '\r[\033[1;34mDIEE\033[1;34m] '+user[
               'userdata'
-            ]+' 👉 (\033[1;34mLimit login\033[1;34m)'
+            ]+' 👉 (\033[1;34mLimit login\033[1;0m)'
           )
           self.limit_login.append(
             user[
@@ -425,7 +425,7 @@ class MOONTON:
           print(
             '\r[\033[1;35mDIEE\033[1;35m] '+user[
               'userdata'
-            ]+' 👉 (\033[1;35mWrong email\033[1;35m)'
+            ]+' 👉 (\033[1;35mWrong email\033[1;0m)'
           )
           self.wrong_email.append(
             user[
@@ -444,9 +444,9 @@ class MOONTON:
           )
         else:
           print(
-            '\r[\[0;33mDIEE\e[0;33m] '+user[
+            '\r[\033[1;30mDIEE\033[1;30m] '+user[
               'userdata'
-            ]+'👉 (\[0;33mUnknown\e[0;33m)'
+            ]+'👉 (\033[1;30mUnknown\033[1;0m)'
           )
           self.unknown.append(
             user[
