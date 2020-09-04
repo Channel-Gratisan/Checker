@@ -444,9 +444,9 @@ class MOONTON:
           )
         else:
           print(
-            '\r[\e[0;33mDIEE\e[0;33m] '+user[
+            '\r[\[0;33mDIEE\e[0;33m] '+user[
               'userdata'
-            ]+' -> (\e[0;33mUnknown\e[0;33m)'
+            ]+'👉 (\[0;33mUnknown\e[0;33m)'
           )
           self.unknown.append(
             user[
@@ -474,7 +474,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[$] Ngechecker: %s Dari/%s\033[92mLIVE: %s - \033[1;31mDIEE: %s - \e[0;33mUnknown: %s '%(
+          end='\r[*] Ngechecker: %s Dari/%s\033[92mLIVE: %s - \033[1;31mDIEE: %s'%(
             str(
               self.loop
             ),
