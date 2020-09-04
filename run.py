@@ -69,11 +69,11 @@ class MOONTON:
 ║╔═╝║╔╗║║╔╗║║╔╗╗║╔╗╗║║═╣║║─╚═╗║║╔╝║╔╗║─║║──╣║══╣║╔╗║║╔╗╗
 ║╚═╗║║║║║╔╗║║║║║║║║║║║═╣║╚╗╔═╝║║║─║╔╗║─║╚╗║║─══║║╔╗║║║║║
 ╚══╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚══╝╚═╝╚══╝╚╝─╚╝╚╝─╚═╝╚╝╚══╝╚╝╚╝╚╝╚╝
-------------------------------------------------------------------
-                  - Perbuat (Abadi_Wayenk) -
-               - YouTube (CHANNEL GRATISAN) -
-      - Facebook (https://www.facebook.com/abadi.wayenk) -
-------------------------------------------------------------------\n''')
+---------------------------------------------------------
+              - Perbuat (Abadi_Wayenk) -
+            - YouTube (CHANNEL GRATISAN) -
+   - Facebook (https://www.facebook.com/abadi.wayenk) -
+---------------------------------------------------------\n''')
 ##########################################
 # Tolong Jangan Di Hapus Nama Saya :( #
 ##########################################
@@ -112,10 +112,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] \e[1;33mPemisah empas harus (:)/(|) yaa\n'
+      '\e[1;33m[!] Pemisah empas harus (:)/(|) yaa\n'
     )
     empas = input(
-      '[?] \e[0;35mFolder empas (ex: empas.txt): '
+      '\e[0;35m[?] Folder empas (ex: empas.txt): '
     )
     if os.path.exists(
       empas
