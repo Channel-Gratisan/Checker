@@ -1,8 +1,8 @@
-# MOONTON ACCOUNT CHECKER
+# CHECKER_MOONTON
 
-Can only be run in python3
+SUBCRIBE CHANNEL GRATISAN YA GANS
 
-![IMG](ss.png)
+![IMG](SS.png)
 
 ## Install
 ```
