@@ -112,10 +112,15 @@ class MOONTON:
 
   def main(self):
     print(
+      '''\033[92m-LIVE (0)\n'''
+      '''\033[91mSalah Password (0)\n'''
+      '''\033[1;34mLimit login (0)\n'''
+      '''\033[1;35mWrong email (0)\n'''
+      '''\033[1;30mUnknown (0)\n'''
       '''\033[0;32m[!] Pemisah empas harus (:)/(|) yaa\n'''
     )
     empas = input(
-      '[?] Folder empas (ex: empas.txt): '
+      '''\033[1;31m[?] Folder empas (ex: empas.txt): '''
     )
     if os.path.exists(
       empas
@@ -189,7 +194,7 @@ class MOONTON:
           '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass atau email|pass'
         )
       print(
-        '[*] Total {0} akun'.format(
+        '\033[0;32m[*] Total {0} akun'.format(
           str(
             len(
               self.userdata
@@ -230,7 +235,7 @@ class MOONTON:
             ) for user in self.userdata
           ]
       print(
-        '\n\n[#] LIVE: '+str(
+        '\033[1;30m\n\n[#] LIVE: '+str(
           len(
             self.live
           )
@@ -240,33 +245,33 @@ class MOONTON:
         self.live
       ) != 0:
         print(
-          '\n'.join(
+          '\033[0;31m\n'.join(
             self.live
           )+'\n'
         )
       print(
-        '[#] WRONG PASS: '+str(
+        '\033[91m[#] WRONG PASS: '+str(
           len(
             self.wrong_password
           )
         )+' - saved: wrongPwd.txt'
       )
       print(
-        '[#] WRONG EMAIL: '+str(
+        '\033[1;35m[#] WRONG EMAIL: '+str(
           len(
             self.wrong_email
           )
         )+' - saved: wrongEmail.txt'
       )
       print(
-        '[#] LIMIT LOGIN: '+str(
+        '\033[1;34m[#] LIMIT LOGIN: '+str(
           len(
             self.limit_login
           )
-        )+' - saved: limitLogin.txt'
+        )+' - saved: limitbos.txt'
       )
       print(
-        '[#] UNKNOWN: '+str(
+        '\033[1;30m[#] UNKNOWN: '+str(
           len(
             self.unknown
           )
@@ -409,7 +414,7 @@ class MOONTON:
             ]
           )
           open(
-            'limitLogin.txt',
+            'limitboss.txt',
             'a'
           ).write(
             str(
