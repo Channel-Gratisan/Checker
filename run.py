@@ -479,7 +479,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Ngechecker: %s Dari/%s LIVE: %s - DIEE: %s'%(
+          end='\033[0;36m\r[*] Ngechecker: %s Dari/%s LIVE: %s - DIEE: %s'%(
             str(
               self.loop
             ),
