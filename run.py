@@ -113,10 +113,10 @@ class MOONTON:
   def main(self):
     print(
       '''\033[92m-LIVE (0)\n'''
-      '''\033[91mSalah Password (0)\n'''
-      '''\033[1;34mLimit login (0)\n'''
-      '''\033[1;35mWrong email (0)\n'''
-      '''\033[1;30mUnknown (0)\n'''
+      '''\033[91m-Salah Password (0)\n'''
+      '''\033[1;34m-Limit login (0)\n'''
+      '''\033[1;35m-Wrong email (0)\n'''
+      '''\033[1;30m-Unknown (0)\n'''
       '''\033[0;32m[!] Pemisah empas harus (:)/(|) yaa\n'''
     )
     empas = input(
@@ -211,7 +211,7 @@ class MOONTON:
         self.valid_proxy = proxy.prox(
         )
         with ThreadPoolExecutor(
-          max_workers=100
+          max_workers=200
         ) as thread:
           [
             thread.submit(
@@ -342,7 +342,7 @@ class MOONTON:
           data=data,
           headers=headers,
           proxies=proxy,
-          timeout=10
+          timeout=20
         )
       else:
         response = requests.post(
