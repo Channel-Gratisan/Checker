@@ -7,7 +7,7 @@
 
 ############################################################
 # Name           : Moonton Account Checker                 #
-# File           : proxy.py                              #
+# File           : proxy.py                               #
 # Author         : DulLah                                  #
 # Github         : https://github.com/dz-id                #
 # Facebook       : https://www.facebook.com/dulahz         #
@@ -29,13 +29,13 @@ valid_proxy = []
 
 def prox():
   print('''
-[1] Ambil proxy dari situs (free-proxy-list.com)
-[2] Ambil proxy dari situs ini (free-proxy-list.net)[\033[92mDisarankan\033[0m]
-[3] Dari folder
+\033[1;36m[1] Ambil proxy dari situs (\033[0mfree-proxy-list.com\033[0m)
+\033[1;36m[2] Ambil proxy dari situs ini (free-proxy-list.net)[\033[92mSaran\033[0m]
+\033[1;36m[3] Dari folder
   ''')
   ask = int(
     input(
-      '[?] Lokasi: '
+      '[?] Locasi: '
     )
   )
   if ask == 1:
@@ -65,7 +65,7 @@ def proxy_checker(prox):
         prox
       )
     print(
-      end='\r[+] Ditemukan (%s) proxy aktif.'%(
+      end='\033[0;32m\r[+] Ditemukan (%s) proxy aktif.'%(
         len(
           valid_proxy
         )
