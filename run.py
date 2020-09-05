@@ -70,9 +70,9 @@ class MOONTON:
 ║╚═╗║║║║║╔╗║║║║║║║║║║║═╣║╚╗╔═╝║║║─║╔╗║─║╚╗║║─══║║╔╗║║║║║
 ╚══╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚══╝╚═╝╚══╝╚╝─╚╝╚╝─╚═╝╚╝╚══╝╚╝╚╝╚╝╚╝
 ---------------------------------------------------------
-              - Perbuat (Abadi_Wayenk) -
-            - YouTube (CHANNEL GRATISAN) -
-   - Facebook (https://www.facebook.com/abadi.wayenk) -
+               \033[1;33m- Perbuat (Abadi_Wayenk) -
+            \033[0;34m- YouTube (CHANNEL GRATISAN) -
+   \033[0;33m- Facebook (https://www.facebook.com/abadi.wayenk) -
 ---------------------------------------------------------\n''')
 ##########################################
 # Tolong Jangan Di Hapus Nama Saya :( #
