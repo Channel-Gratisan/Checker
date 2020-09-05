@@ -112,7 +112,7 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah empas harus (:)/(|) yaa\n'
+      '''\033[0;32m[!] Pemisah empas harus (:)/(|) yaa\n'''
     )
     empas = input(
       '[?] Folder empas (ex: empas.txt): '
