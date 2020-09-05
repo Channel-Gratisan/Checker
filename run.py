@@ -73,6 +73,7 @@ class MOONTON:
                \033[1;33m- Perbuat (Abadi_Wayenk) -
             \033[0;34m- YouTube (CHANNEL GRATISAN) -
    \033[0;35m- Facebook (https://www.facebook.com/abadi.wayenk) -
+                        - Goblok Lah Kalian Semua -
 \033[1;31m---------------------------------------------------------\n''')
 ##########################################
 # Tolong Jangan Di Hapus Nama Saya :( #
