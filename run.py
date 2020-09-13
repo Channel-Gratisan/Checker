@@ -48,6 +48,8 @@ except ImportError:
     'Please restart this tools'
   )
 
+api = 'https://accountmtapi.mobilelegends.com/'
+
 def password():
   print('''
 \033[92mPassword\033[0m]
@@ -59,8 +61,6 @@ def password():
     )
   )
   if ask == 1:
-
-api = 'https://accountmtapi.mobilelegends.com/'
 
 class MOONTON:
   def __init__(self, url):
