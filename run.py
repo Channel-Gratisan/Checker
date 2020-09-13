@@ -1,3 +1,8 @@
+password = input ("PASSWORD") :
+if password == "Subscribe"
+
+else:
+   print("Password Salah")
 # coding=utf-8
 
 #
