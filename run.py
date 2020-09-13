@@ -48,6 +48,18 @@ except ImportError:
     'Please restart this tools'
   )
 
+def password():
+  print('''
+\033[92mPassword\033[0m]
+\033[1;36m[3] Dari folder
+  ''')
+  password = int(
+    input(
+      '[?] Password: '
+    )
+  )
+  if ask == 1:
+
 api = 'https://accountmtapi.mobilelegends.com/'
 
 class MOONTON:
