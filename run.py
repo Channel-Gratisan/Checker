@@ -18,12 +18,6 @@
 import os, sys, hashlib, json, random, re
 from get_proxy import proxy
 
-password = input ("PASSWORD") :
-if password == "Subscribe"
-
-else:
-   print("Password Salah")
-
 try:
   from concurrent.futures import ThreadPoolExecutor
 except ImportError:
