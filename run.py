@@ -16,7 +16,7 @@
 ############################################################
 
 import os, sys, hashlib, json, random, re
-from get_proxy import proxy,time
+from get_proxy import proxy ,time
 
 try:
   from concurrent.futures import ThreadPoolExecutor
