@@ -1,3 +1,4 @@
+clear
 # coding=utf-8
 
 #
